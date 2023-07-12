@@ -1,0 +1,35 @@
+/* Genéricos */
+
+.card{
+  max-width: 900px;
+  margin-top: 0 auto;
+  padding: 10px;
+}
+
+li{
+  list-style-type: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+li .card:hover{
+border: 1px solid green;
+}
+ol{
+  padding: 0;
+}
+
+/* Personalizados */
+
+.tituloPreguntaHeader{
+  font-size: 26px;
+  font-family: cursive;
+}
+
+.saludoUsuario{
+  font-style: italic;
+}
+
+.cantidadPreguntas{
+  font-style: italic;
+}

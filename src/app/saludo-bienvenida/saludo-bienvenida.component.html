@@ -1,0 +1,25 @@
+<div class="container bg-light py-5">
+  <h1 class="display-5 fw-bold">¡Bienvenido a preguntas y respuestas!</h1>
+  <p class="col-md-8 fs-4">
+    Este juego contiene 10 preguntas en total. Cada pregunta suma 10 puntos.
+  </p>
+  <h4>Reglas:</h4>
+  <ol>
+    <li>Cada pregunta correcta sumará 10 puntos.</li>
+    <li>Cada pregunta incorrecta restará 10 puntos.</li>
+    <li>Cada pregunta tendrá un tiempo máximo de 30 segundos.</li>
+    <li>Actualizar el sitio reiniciará el juego.</li>
+  </ol>
+  <h1 class="msjSuerte">¡Mucha suerte!</h1>
+  <div class="name col-md-4 my-3">
+    <label for="">Escribe tu nombre:</label>
+    <input #name type="text" class="form-control" />
+  </div>
+  <button
+    class="btn btn-primary btn-lg"
+    routerLink="/Pregunta"
+    (click)="IniciarPreguntas()"
+  >
+    Comenzar a responder
+  </button>
+</div>
